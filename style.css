@@ -1,0 +1,180 @@
+@font-face {
+    font-family:'Roboto-bold';
+    src: url(./Roboto/Roboto-Bold.ttf) format('truetype');
+}
+
+@font-face {
+    font-family: 'Roboto-regular';
+    src: url(./Roboto/Roboto-Regular.ttf) format('truetype');
+}
+
+@font-face {
+    font-family: 'Roboto-lightitalic';
+    src: url(./Roboto/Roboto-LightItalic.ttf) format('truetype')
+}
+
+.header div {
+    background: #1F2937;
+    color: white;
+    
+}
+
+a {
+    color: white;
+    text-align: right;
+}
+
+
+
+.container-1 {
+    font-family: sans-serif;
+    display: flex; 
+    padding-left: 150px;
+    padding-right: 150px;
+}
+
+.box-1 {
+    flex: 12;
+    font-size: 24px;
+    color: #F9FAF8;  
+}
+
+.box-2 {
+    flex: 2;
+    font-size: 18px;
+    color: #E5E7EB;
+    
+}
+
+.box-3 {
+    flex: 2;
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.box-4 {
+    flex: 1;
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+h1 {
+    font-size: 48px;
+    font-weight: extra-bold;
+    color: #F9FAF8;
+    font-family: Roboto-bold, sans-serif;
+}
+
+.container-2 {
+    display: flex;
+    padding-left: 150px;
+    padding-bottom: 60px;
+    padding-top: 40px;
+    padding-right: 150px;
+    justify-content: space-between;
+    
+}
+
+
+
+button {
+    background-color: #3882F6;
+    color: white;
+    border-radius: 15%;
+    font-family: 'Roboto-Regular', sans-serif;
+}
+
+
+h3 {
+    text-align: center;
+    color: black;
+    font-size: 20px;
+    font-family: sans-serif;
+}
+
+.container-3 {
+        display: flex;
+        padding-left: 300px;
+        padding-right: 350px;
+        padding-bottom: 60px;
+        padding-top: 40px;
+    }
+
+.number {
+    height: 100px;
+    width: 100px;
+    border: 2px solid blue;
+    border-radius: 25%;
+    
+}
+
+.one {
+    flex: 4;
+}
+
+.two {
+    flex: 4;
+}
+
+.three {
+    flex: 4;
+}
+
+.four {
+    flex: 1;
+}
+
+.container-4 {
+    background-color: #E5E7EB;
+    font-size: 36px;
+    font-family: 'Roboto-lightitalic', sans-serif;
+    color: #1F2937;
+}
+
+.text {
+    display: flex;
+    padding-left: 300px;
+    padding-right: 300px;
+    padding-top:  50px;
+    padding-bottom: 50px;
+}
+
+.container-5 {
+    padding: 50px;
+    
+}
+
+.blue {
+    padding: 60px;
+
+}
+
+.text-inside {
+    padding: 60px;
+    display: flex;
+    background-color: #3882F6;
+    color: white;
+    
+    
+    
+}
+
+.bti {
+    font-family: 'Roboto-regular', sans-serif;
+    flex: 2;
+}
+
+
+
+
+.container-6 {
+    background-color: #1F2937;
+    
+}
+
+.last {
+    padding: 15px;
+    text-align: center;
+    color: white;
+    font-family: 'Roboto-regular', sans-serif;
+}
